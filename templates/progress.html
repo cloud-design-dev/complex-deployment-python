@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!--load all styles -->
+</head>
+<body>
+
+    <section>
+        <div class="items-center px-8 py-12 mx-auto max-w-7xl lg:px-16 md:px-12">
+          <div class="justify-center w-full lg:p-10 max-auto">
+            <nav aria-label="Progress">
+              <ol role="list" class="flex flex-col max-w-xl mx-auto space-y-4">
+                <li class="md:flex-1">
+                  <a href="#" class="flex flex-col px-4 py-2 duration-200 bg-gray-100 border-2 border-transparent group hover:border-black">
+                    <span class="text-sm font-medium text-blue-600 group-hover:text-blue-800">
+                      Step 1: Session Initiated
+                    </span>
+                    <span class="text-sm font-medium">
+                        <ul><li>User API Key stored for session.</li>
+                            <li>Constructing deployment plan.</li>
+                        </ul>
+                    </span>
+                  </a>
+                </li>
+                <li class="md:flex-1">
+                  <a href="#" class="flex flex-col px-4 py-2 duration-200 border-2 border-transparent bg-gray-50 group hover:border-black" aria-current="step">
+                    <span class="text-sm font-medium text-blue-600">
+                      Step 2: Deployment Started
+                    </span>
+                    <span class="text-sm font-medium">
+                        <ul><li>Workspace created for DEPLOYMENT_NAME</li>
+                        <li>Workspace plan created for DEPLOYMENT_NAME</li>
+                    </ul>
+                    </span>
+                  </a>
+                </li>
+                <li class="md:flex-1">
+                  <a href="#" class="flex flex-col px-4 py-2 duration-200 border-2 group bg-green-50 hover:border-black">
+                    <span class="text-sm font-medium text-gray-500 group-hover:text-gray-700">
+                      Current 3: Deployment In Progress
+                    </span>
+                    <span class="text-sm font-medium">
+                        <ul><li>Workspace plan applied for DEPLOYMENT_NAME</li>
+                        <li>(poll status every 60 seconds)</li>
+                    </ul>
+                    </span>
+                  </a>
+                </li>
+                <li class="md:flex-1">
+                    <a href="https://example.com" class="flex flex-col px-4 py-2 duration-200 border-2 border-transparent bg-gray-50 group hover:border-black" aria-current="step">
+                      <span class="text-sm font-medium text-blue-600">
+                        Step 4: Deployment Completed
+                      </span>
+                    </a>
+                  </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>            
+</body>
+</html>
